@@ -1,6 +1,6 @@
 import { Box, DataList, Heading } from '@chakra-ui/react';
 
-export function SchedulesBroadcast() {
+export const SchedulesBroadcast = () => {
     return (
         <Box>
             <Heading>Horários das transmissões:</Heading>

@@ -2,7 +2,7 @@ import { SOCIAL_MIDIAS } from '@/constants/social-midias';
 import { Center, Link } from '@chakra-ui/react';
 import { FaInstagram, FaKickstarterK, FaTiktok, FaTwitch, FaX, FaYoutube } from 'react-icons/fa6';
 
-export function SocialMidiasCirandinha() {
+export const SocialMidiasCirandinha = () => {
     return (
         <Center
             mt={[4, 4, 8, 12]}

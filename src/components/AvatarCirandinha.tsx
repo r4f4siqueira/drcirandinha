@@ -1,6 +1,6 @@
 import { Center, Image } from '@chakra-ui/react';
 
-export function AvatarCirandinha() {
+export const AvatarCirandinha = () => {
     return (
         <Center>
             <Image
