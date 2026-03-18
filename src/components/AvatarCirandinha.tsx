@@ -4,7 +4,7 @@ export function AvatarCirandinha() {
     return (
         <Center>
             <Image
-                mt={[10, 10, 20, 24]}
+                mt={10}
                 src="/DrCirandinhaFire.png"
                 alt="Dr. Cirandinha"
                 title="Dr. Cirandinha"

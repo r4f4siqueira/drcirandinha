@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Provider } from '@/components/ui/provider';
 import { Roboto } from 'next/font/google';
 import './globals.css';
+import { Box } from '@chakra-ui/react';
 
 const roboto = Roboto({
     subsets: ['latin'],
@@ -27,7 +28,9 @@ export default function RootLayout({
             className={roboto.variable}
         >
             <body>
-                <Provider>{children}</Provider>
+                <Provider>
+                    <Box p={4}>{children}</Box>
+                </Provider>
             </body>
         </html>
     );
