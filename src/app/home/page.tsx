@@ -3,6 +3,7 @@ import { SocialMidiasCirandinha } from '@/components/SocialMidiasCirandinha';
 import { Box, Heading, Link } from '@chakra-ui/react';
 import { ExpandableText } from './components/ExpandableText';
 import { SchedulesBroadcast } from './components/SchedulesBroadcast';
+import { HelpInfo } from './components/HelpInfo';
 
 export default function HomePage() {
     return (
@@ -29,6 +30,7 @@ export default function HomePage() {
                 </ExpandableText>
             </Box>
             <Box padding={[2, 2, 4, 8]}>
+                <HelpInfo />
                 <SchedulesBroadcast />
             </Box>
         </Box>

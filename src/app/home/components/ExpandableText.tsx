@@ -11,7 +11,7 @@ export const ExpandableText = ({ children }: ExpandableTextProps) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
-        <Box mt={4}>
+        <Box >
             <Text
                 textAlign={'justify'}
                 lineClamp={isExpanded ? undefined : 2}
