@@ -22,8 +22,9 @@ export const FooterCirandinha = () => {
                             By{' '}
                             <Link
                                 color={'red'}
-                                href="www.r4f4siqueira.com"
+                                href="https://www.r4f4siqueira.com"
                                 fontWeight={'bold'}
+                                target="_blank"
                             >
                                 Rafael Siqueira
                             </Link>
@@ -33,7 +34,7 @@ export const FooterCirandinha = () => {
                 </HStack>
                 <HStack>
                     <Box>
-                        <Text>❤</Text>
+                        <Text>❤️</Text>
                     </Box>
                 </HStack>
             </Box>
