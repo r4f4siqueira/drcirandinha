@@ -1,6 +1,7 @@
 import { HeadingAutoSize } from '@/components/HeadingAutoSize';
 import { DONATES_LINKS } from '@/constants/donates-links';
 import { Box, Link, List, Text } from '@chakra-ui/react';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export const HelpInfo = () => {
     return (
@@ -24,7 +25,8 @@ export const HelpInfo = () => {
                             fontWeight={'bold'}
                             href={DONATES_LINKS.Midfielder}
                         >
-                            MidFielder (livepix):
+                            MidFielder (livepix)
+                            <FaExternalLinkAlt size={10} />:
                         </Link>{' '}
                         Por aqui você pode acompanhar minhas metas, rankings de doações e muito mais.
                     </Text>
@@ -37,7 +39,8 @@ export const HelpInfo = () => {
                             fontWeight={'bold'}
                             href={DONATES_LINKS.Wishlist}
                         >
-                            Wishlist Amazon:
+                            Wishlist Amazon
+                            <FaExternalLinkAlt size={10} />:
                         </Link>{' '}
                         Algumas coisas que pode me ajudar na live ou no meu dia dia.
                     </Text>

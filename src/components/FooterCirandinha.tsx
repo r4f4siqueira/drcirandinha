@@ -1,4 +1,5 @@
 import { Avatar, Box, HStack, Link, Text } from '@chakra-ui/react';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export const FooterCirandinha = () => {
     return (
@@ -27,6 +28,7 @@ export const FooterCirandinha = () => {
                                 target="_blank"
                             >
                                 Rafael Siqueira
+                                <FaExternalLinkAlt size={8} />:
                             </Link>
                         </Text>
                         <Text>Site em Desenvolvimento</Text>
