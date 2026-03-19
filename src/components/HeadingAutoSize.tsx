@@ -1,7 +1,7 @@
-import { Heading, HeadingProps } from "@chakra-ui/react";
+import { Heading, HeadingProps } from '@chakra-ui/react';
 
 interface HeadingAutoSizeProps extends HeadingProps {
-  text: string;
+    text: string;
 }
 
 /**
@@ -12,9 +12,12 @@ interface HeadingAutoSizeProps extends HeadingProps {
  * @returns A Heading component with text that automatically adjusts its size based on the screen size.
  */
 export const HeadingAutoSize = ({ text, ...props }: HeadingAutoSizeProps) => {
-  return (
-    <Heading size={["4xl", "5xl", "6xl", "6xl"]} {...props}>
-      {text}
-    </Heading>
-  );
+    return (
+        <Heading
+            size={['4xl', '5xl', '6xl', '6xl']}
+            {...props}
+        >
+            {text}
+        </Heading>
+    );
 };
