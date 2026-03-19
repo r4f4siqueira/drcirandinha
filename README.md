@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr Cirandinha - Site Oficial _(Em desenvolvimento)_
 
-## Getting Started
+Este repositório contém o código-fonte do site oficial do **Dr Cirandinha**, acessível em [www.drcirandinha.com.br](https://www.drcirandinha.com.br).
 
-First, run the development server:
+O projeto foi criado para centralizar informações, promover as transmissões ao vivo (lives) e facilitar a interação direta com a comunidade.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site foi construído com ferramentas modernas para garantir performance e uma ótima experiência de usuário:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **[Next.js](https://nextjs.org/)**: Framework principal para React com suporte a renderização híbrida.
+- **[React](https://react.dev/)**: Biblioteca poderosa para criação de interfaces flexíveis.
+- **[Chakra UI](https://chakra-ui.com/)**: Biblioteca de componentes para design rápido, responsivo e acessível.
+- **[React Icons](https://react-icons.github.io/react-icons/)**: Conjunto abrangente de ícones para redes sociais e UI.
+- **[TypeScript](https://www.typescriptlang.org/)**: Tipagem estática para maior segurança e produtividade no desenvolvimento.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Como Executar o Projeto
 
-## Learn More
+Siga os passos abaixo para configurar e rodar o site em seu ambiente local:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Instale as dependências**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Inicie o servidor de desenvolvimento**:
 
-## Deploy on Vercel
+    ```bash
+    npm run dev
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Acesse no Navegador**:
+   Abra [http://localhost:3000](http://localhost:3000) para ver o resultado.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+© 2026 - Desenvolvido para a comunidade do Dr Cirandinha.
