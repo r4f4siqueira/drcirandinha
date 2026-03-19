@@ -36,7 +36,7 @@ export const FooterCirandinha = () => {
                 </HStack>
                 <HStack>
                     <Box>
-                        <Text>❤️</Text>
+                        <Text>© 2026 - Desenvolvido para a comunidade do Dr Cirandinha ❤️</Text>
                     </Box>
                 </HStack>
             </Box>
