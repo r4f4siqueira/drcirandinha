@@ -9,8 +9,10 @@ export const FooterCirandinha = () => {
         >
             <Box
                 maxW={'1820px'}
-                justifyContent={'space-between'}
                 display={'flex'}
+                justifyContent={'space-between'}
+                flexDir={['column', 'column', 'row', 'row']}
+                alignItems={'center'}
                 padding={[2, 2, 4, 8]}
             >
                 <HStack>
@@ -28,7 +30,7 @@ export const FooterCirandinha = () => {
                                 target="_blank"
                             >
                                 Rafael Siqueira
-                                <FaExternalLinkAlt size={8} />:
+                                <FaExternalLinkAlt size={8} />
                             </Link>
                         </Text>
                         <Text>Site em Desenvolvimento</Text>
