@@ -6,12 +6,14 @@ import { SchedulesBroadcast } from './components/SchedulesBroadcast';
 import { HelpInfo } from './components/HelpInfo';
 import { HeadingAutoSize } from '@/components/HeadingAutoSize';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import { EmbedLives } from './components/EmbedLives';
 
 export default function HomePage() {
     return (
         <Box>
             <AvatarCirandinha />
             <SocialMidiasCirandinha />
+            <EmbedLives />
             <Box mt={12}>
                 <HeadingAutoSize
                     size={['4xl', '5xl', '6xl', '6xl']}
