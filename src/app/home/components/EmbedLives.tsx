@@ -11,7 +11,7 @@ export const EmbedLives = () => {
         >
             <Box>
                 <iframe
-                    src="https://player.kick.com/drcirandinha"
+                    src="https://player.kick.com/drcirandinha?autoplay=true"
                     height="240"
                     width="352"
                 />
@@ -19,7 +19,7 @@ export const EmbedLives = () => {
 
             <Box>
                 <iframe
-                    src="https://player.twitch.tv/?channel=drcirandinha&parent=www.drcirandinha.com.br"
+                    src="https://player.twitch.tv/?channel=drcirandinha&parent=www.drcirandinha.com.br&autoplay=true"
                     height="240"
                     width="352"
                 />
