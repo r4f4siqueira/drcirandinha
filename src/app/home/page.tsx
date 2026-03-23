@@ -5,12 +5,15 @@ import { ExpandableText } from './components/ExpandableText';
 import { SchedulesBroadcast } from './components/SchedulesBroadcast';
 import { HelpInfo } from './components/HelpInfo';
 import { HeadingAutoSize } from '@/components/HeadingAutoSize';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+import { EmbedLives } from './components/EmbedLives';
 
 export default function HomePage() {
     return (
         <Box>
             <AvatarCirandinha />
             <SocialMidiasCirandinha />
+            <EmbedLives />
             <Box mt={12}>
                 <HeadingAutoSize
                     size={['4xl', '5xl', '6xl', '6xl']}
@@ -24,7 +27,7 @@ export default function HomePage() {
                         color="red.600"
                         fontWeight={'bold'}
                     >
-                        Dota 2
+                        Dota 2<FaExternalLinkAlt size={10} />
                     </Link>{' '}
                     e algumas raras vezes onde jogo ou explico algo adverso;{'\n'}
                     Engenheiro de software nas horas vagas (vulgo, minha fonte de renda principal), faço lives
