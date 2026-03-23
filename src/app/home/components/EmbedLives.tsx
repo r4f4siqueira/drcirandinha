@@ -5,7 +5,7 @@ export const EmbedLives = () => {
         <Box
             display={'flex'}
             flexDir={['column', 'column', 'row', 'row']}
-            justifyContent={'space-between'}
+            justifyContent={'space-evenly'}
             padding={[2, 2, 4, 8]}
             gap={4}
         >
@@ -19,7 +19,7 @@ export const EmbedLives = () => {
 
             <Box>
                 <iframe
-                    src="https://player.kick.com/drcirandinha"
+                    src="https://player.twitch.tv/?channel=drcirandinha&parent=www.drcirandinha.com.br"
                     height="240"
                     width="352"
                 />
