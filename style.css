@@ -1,0 +1,284 @@
+/* Variáveis de Cores e Fontes */
+:root {
+    --bg-color: #15171a; /* Tema dark base do chakra */
+    --text-color: #f7fafc;
+    --font-family: 'Roboto', sans-serif;
+    
+    /* Cores das Redes */
+    --twitch: #6441a5;
+    --kick: #00ff00; /* lime */
+    --youtube: #ff0000; /* red */
+    --x: #ffffff;
+    --tiktok: #ffffff;
+    --instagram: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    
+    /* Cores Temáticas */
+    --red: #e53e3e;
+    --orange: #fa8525;
+    --yellow: #ecc94b;
+    --purple: #805ad5;
+    --lime: #00ff00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Container Principal */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1rem;
+    flex: 1;
+    width: 100%;
+}
+
+/* Avatar */
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Redes Sociais */
+.social-medias {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+}
+
+.twitch { color: var(--twitch); }
+.kick { color: var(--kick); }
+.youtube { color: var(--youtube); }
+.x { color: var(--x); }
+.tiktok { color: var(--tiktok); }
+
+/* Instagram precisa de tratamento especial pro gradiente no ícone FontAwesome */
+.instagram i {
+    background: var(--instagram);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Embed Lives */
+.embed-lives {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.embed-container-kick {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--kick);
+    max-width: 100%;
+}
+
+.embed-container-twitch {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--twitch);
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .embed-lives {
+        flex-direction: row;
+        padding: 2rem;
+    }
+}
+
+/* Seção Sobre */
+.about-section {
+    margin-top: 3rem;
+    text-align: justify ;
+    text-indent: 24px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .main-title { font-size: 4rem; }
+}
+
+/* Links em Geral */
+.link-bold {
+    font-weight: bold;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.link-bold:hover {
+    opacity: 0.8;
+}
+
+.external-icon {
+    font-size: 10px;
+}
+
+.red { color: var(--red); }
+.purple { color: var(--purple); }
+.orange { color: var(--orange); }
+.lime { color: var(--lime); }
+.yellow { color: var(--yellow); }
+.highlight-yellow {
+    color: var(--yellow);
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+/* Informações */
+.info-sections {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.styled-list {
+    margin-left: 2rem;
+    list-style-type: disc;
+}
+
+.styled-list li {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Data List (Horários) */
+.schedules {
+    margin-top: 3rem;
+}
+
+.data-list {
+    margin-top: 1rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.data-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (min-width: 768px) {
+    .data-item {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .data-label {
+        width: 150px;
+        flex-shrink: 0;
+    }
+}
+
+.data-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--orange);
+    color: #1a202c;
+    min-height: 100px;
+}
+
+.footer-content {
+    max-width: 1820px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        padding: 1rem 2rem;
+    }
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.footer-text p {
+    font-size: 0.875rem;
+}
+
+.footer-text .red {
+    color: #c53030; /* Vermelho mais escuro para ler no fundo laranja */
+}
+
+.footer-right p {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .social-medias {
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .social-medias {
+        gap: 3rem;
+    }
+}
